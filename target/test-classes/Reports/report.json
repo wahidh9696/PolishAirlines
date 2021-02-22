@@ -1,0 +1,656 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 922665400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user has to be in booking page",
+            "match": {
+              "location": "Main.the_user_has_to_be_in_booking_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15452675700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "To validate the booking page using data table",
+        "description": "",
+        "id": "to-validate-the-ticket-booking-functionality;to-validate-the-booking-page-using-data-table",
+        "after": [
+          {
+            "result": {
+              "duration": 1462456000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1680916900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user has to select the origin and destination",
+            "match": {
+              "location": "Main.the_user_has_to_select_the_origin_and_destination(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "WAW",
+                  "WRO"
+                ]
+              },
+              {
+                "cells": [
+                  "HAM",
+                  "FRA"
+                ]
+              },
+              {
+                "cells": [
+                  "DEL",
+                  "MAA"
+                ]
+              },
+              {
+                "cells": [
+                  "YUL",
+                  "YOW"
+                ]
+              },
+              {
+                "cells": [
+                  "DEL",
+                  "MAA"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 309977000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user has to select the trip type",
+            "match": {
+              "location": "Main.the_user_has_to_select_the_trip_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1499560200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The user has to select the dates of the journey",
+            "match": {
+              "location": "Main.the_user_has_to_select_the_dates_of_the_journey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1290840400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The user has to select the number of passengers",
+            "match": {
+              "location": "Main.the_user_has_to_select_the_number_of_passengers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 329929200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The user has to select the cabin class",
+            "match": {
+              "location": "Main.the_user_has_to_select_the_cabin_class()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 532229400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The user has to click the search button",
+            "match": {
+              "location": "Main.the_user_has_to_click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 246000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The user should be navigated to the flight details page",
+            "match": {
+              "location": "Main.the_user_should_be_navigated_to_the_flight_details_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 401269800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user has to be in booking page",
+            "match": {
+              "location": "Main.the_user_has_to_be_in_booking_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12925669400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "To validate the booking page using examples",
+        "description": "",
+        "id": "to-validate-the-ticket-booking-functionality;to-validate-the-booking-page-using-examples;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1518789900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2635915800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user has to select the \"WAW\" and \"WRO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WAW\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"WRO\"",
+                  "offset": 37
+                }
+              ],
+              "location": "Main.the_user_has_to_select_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 317429100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user has to select the trip type",
+            "match": {
+              "location": "Main.the_user_has_to_select_the_trip_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1456992200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The user has to select the dates of the journey",
+            "match": {
+              "location": "Main.the_user_has_to_select_the_dates_of_the_journey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1312287600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "The user has to select the number of passengers",
+            "match": {
+              "location": "Main.the_user_has_to_select_the_number_of_passengers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 315625100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The user has to select the cabin class",
+            "match": {
+              "location": "Main.the_user_has_to_select_the_cabin_class()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 550454400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The user has to click the search button",
+            "match": {
+              "location": "Main.the_user_has_to_click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 256900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "The user should be navigated to the flight details page",
+            "match": {
+              "location": "Main.the_user_should_be_navigated_to_the_flight_details_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 436109500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user has to be in booking page",
+            "match": {
+              "location": "Main.the_user_has_to_be_in_booking_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13206931000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "To validate the booking page using examples",
+        "description": "",
+        "id": "to-validate-the-ticket-booking-functionality;to-validate-the-booking-page-using-examples;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1101863600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2532688600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user has to select the \"HAM\" and \"FRA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HAM\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"FRA\"",
+                  "offset": 37
+                }
+              ],
+              "location": "Main.the_user_has_to_select_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 309329800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user has to select the trip type",
+            "match": {
+              "location": "Main.the_user_has_to_select_the_trip_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1513756900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The user has to select the dates of the journey",
+            "match": {
+              "location": "Main.the_user_has_to_select_the_dates_of_the_journey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1271472800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "The user has to select the number of passengers",
+            "match": {
+              "location": "Main.the_user_has_to_select_the_number_of_passengers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 362843300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The user has to select the cabin class",
+            "match": {
+              "location": "Main.the_user_has_to_select_the_cabin_class()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 565191400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The user has to click the search button",
+            "match": {
+              "location": "Main.the_user_has_to_click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "The user should be navigated to the flight details page",
+            "match": {
+              "location": "Main.the_user_should_be_navigated_to_the_flight_details_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 592414000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user has to be in booking page",
+            "match": {
+              "location": "Main.the_user_has_to_be_in_booking_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12783019200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "To fail the testcase",
+        "description": "",
+        "id": "to-validate-the-ticket-booking-functionality;to-fail-the-testcase;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 896805100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2542140800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "The user has to select the \"YUL\" and \"YOW\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"YUL\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"YOW\"",
+                  "offset": 37
+                }
+              ],
+              "location": "Main.the_user_has_to_select_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 287432700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "The user has to select the trip type",
+            "match": {
+              "location": "Main.the_user_has_to_select_the_trip_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1489533800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "The user has to select the dates of the journey",
+            "match": {
+              "location": "Main.the_user_has_to_select_the_dates_of_the_journey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.stepdefinition.Main.the_user_fails_the_testcase_wantedly(Main.java:74)\r\n\tat ✽.The user fails the testcase wantedly(src/test/resources/Feature/booking.feature:40)\r\n",
+              "duration": 8647300,
+              "status": "failed"
+            },
+            "line": 40,
+            "name": "The user fails the testcase wantedly",
+            "match": {
+              "location": "Main.the_user_fails_the_testcase_wantedly()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26000,
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "The user has to select the number of passengers",
+            "match": {
+              "location": "Main.the_user_has_to_select_the_number_of_passengers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12100,
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "The user has to select the cabin class",
+            "match": {
+              "location": "Main.the_user_has_to_select_the_cabin_class()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11000,
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "The user has to click the search button",
+            "match": {
+              "location": "Main.the_user_has_to_click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10600,
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "The user should be navigated to the flight details page",
+            "match": {
+              "location": "Main.the_user_should_be_navigated_to_the_flight_details_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the ticket booking functionality",
+    "description": "",
+    "id": "to-validate-the-ticket-booking-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/booking.feature",
+    "tags": []
+  }
+]

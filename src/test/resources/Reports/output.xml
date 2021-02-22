@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="84.828911">
+<testcase classname="To validate the ticket booking functionality" name="To validate the booking page using data table" time="23.489626">
+<system-out><![CDATA[Given The user has to be in booking page....................................passed
+When The user has to select the origin and destination......................passed
+And The user has to select the trip type....................................passed
+And The user has to select the dates of the journey.........................passed
+And The user has to select the number of passengers.........................passed
+And The user has to select the cabin class..................................passed
+And The user has to click the search button.................................passed
+Then The user should be navigated to the flight details page................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the ticket booking functionality" name="To validate the booking page using examples" time="21.435721">
+<system-out><![CDATA[Given The user has to be in booking page....................................passed
+When The user has to select the "WAW" and "WRO".............................passed
+And The user has to select the trip type....................................passed
+And The user has to select the dates of the journey.........................passed
+And The user has to select the number of passengers.........................passed
+And The user has to select the cabin class..................................passed
+And The user has to click the search button.................................passed
+Then The user should be navigated to the flight details page................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the ticket booking functionality" name="To validate the booking page using examples 2" time="21.301721">
+<system-out><![CDATA[Given The user has to be in booking page....................................passed
+When The user has to select the "HAM" and "FRA".............................passed
+And The user has to select the trip type....................................passed
+And The user has to select the dates of the journey.........................passed
+And The user has to select the number of passengers.........................passed
+And The user has to select the cabin class..................................passed
+And The user has to click the search button.................................passed
+Then The user should be navigated to the flight details page................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the ticket booking functionality" name="To fail the testcase" time="18.601843">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at com.stepdefinition.Main.the_user_fails_the_testcase_wantedly(Main.java:74)&#13;&#10;&#9;at ✽.The user fails the testcase wantedly(src/test/resources/Feature/booking.feature:40)&#13;&#10;"><![CDATA[Given The user has to be in booking page....................................passed
+When The user has to select the "YUL" and "YOW".............................passed
+And The user has to select the trip type....................................passed
+And The user has to select the dates of the journey.........................passed
+And The user fails the testcase wantedly....................................failed
+And The user has to select the number of passengers.........................skipped
+And The user has to select the cabin class..................................skipped
+And The user has to click the search button.................................skipped
+Then The user should be navigated to the flight details page................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.stepdefinition.Main.the_user_fails_the_testcase_wantedly(Main.java:74)
+	at ✽.The user fails the testcase wantedly(src/test/resources/Feature/booking.feature:40)
+]]></failure>
+</testcase>
+</testsuite>
